@@ -1,37 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .logo>a>img{
+        width: 100px;
+    
+    }
+</style>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Treinos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Bruno</a></li>
-              <li><a class="dropdown-item" href="#">Caio</a></li>
+        <nav>
+            <div class="logo">
+                <a href="index.php"><img src="media/site/logo.png"></a>
+            </div>
+            <ul>
+                <li><a href="#">Treinos</a></li>
+                <li><a href="#">Exercícios</a></li>
             </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    </header
+        </nav>
+    </header>
 </body>
+
 </html>
