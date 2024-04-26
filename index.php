@@ -16,39 +16,7 @@
     <?php include_once('pages/header.php'); ?>
   <!-- </Header> -->
 
-  <h1>Segunda-Feira</h1>
-  <h3>Treino de Peito e Tríceps</h3>
-
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="media/exercicios/Crucifixo com halteres.gif" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Crucifíxo com Halteres</h5>
-          <p class="card-text"><small class="text-body-secondary">3 séries de 10-12 repetições</small></p>
-          <p class="card-text">O Crucifixo com halteres é um exercício de musculação que fortalece e tonifica os
-            músculos do peitoral, sendo executado deitado e levantando os halteres em forma de cruz.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="media/exercicios/Remada alta com barra.gif" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Remada alta com barra</h5>
-          <p class="card-text"><small class="text-body-secondary">3 séries de 10-12 repetições</small></p>
-          <p class="card-text">A remada alta com barra é um exercício de musculação focado principalmente nos músculos das costas, especialmente nos trapézios, deltoides posteriores e romboides.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  
 
 
 
